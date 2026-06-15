@@ -1,4 +1,4 @@
-# Báo cáo cuối cùng: Dự báo lượng mưa từ dữ liệu thời tiết đa biến
+# Dự báo lượng mưa từ dữ liệu thời tiết đa biến
 
 ## 1. Giới thiệu bài toán
 
