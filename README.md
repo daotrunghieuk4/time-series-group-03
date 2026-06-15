@@ -399,8 +399,6 @@ Sau khi chạy xong:
 
 Nhóm đã xây dựng bài toán dự báo lượng mưa từ chuỗi thời gian thời tiết đa biến. Dữ liệu được tiền xử lý theo đúng quy trình gồm kiểm tra missing values, làm đều thời gian, xử lý outlier, tạo đặc trưng thời gian, tạo đặc trưng Fourier, chuẩn hóa và chia tập theo thứ tự thời gian.
 
-Nhóm đã đọc và tóm tắt ba bài báo mới về chuỗi thời gian, trong đó TimeXer là bài báo phù hợp nhất với bài toán của nhóm vì mô hình tập trung vào dự báo một biến mục tiêu với nhiều biến ngoại sinh.
-
 Về thực nghiệm, nhóm xây dựng ba mô hình gồm Linear Regression, XGBoost và GRU. Kết quả cho thấy GRU đạt hiệu quả tốt nhất với:
 
 * MAE = 0.002393
