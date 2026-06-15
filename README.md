@@ -7,12 +7,9 @@
 **Tên nhóm:** Nhóm 03
 
 **Thành viên:**
-
-| STT | Họ và tên      | Vai trò                                      |
-| --: | -------------- | -------------------------------------------- |
-|   1 | Đào Trung Hiếu | Trưởng nhóm, tổng hợp báo cáo, xử lý dữ liệu |
-|   2 | Hiệp           | Tóm tắt bài báo, xây dựng mô hình            |
-|   3 | Huy            | Tóm tắt bài báo, đánh giá mô hình            |
+Đào Trung Hiếu 
+Nguyễn Văn Hiệp           
+Nguyễn Minh Huy 
 
 ## 2. Chủ đề nghiên cứu
 
