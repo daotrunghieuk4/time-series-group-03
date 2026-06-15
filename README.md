@@ -7,12 +7,9 @@
 **Tên nhóm:** Nhóm 03
 
 **Thành viên:**
-
-Đào Trung Hiếu 
-
-Nguyễn Văn Hiệp    
-
-Nguyễn Minh Huy 
+- Đào Trung Hiếu
+- Nguyễn Văn Hiệp
+- Nguyễn Minh Huy
 
 ## 2. Chủ đề nghiên cứu
 
@@ -20,23 +17,24 @@ Nguyễn Minh Huy
 
 Bài toán được xây dựng theo dạng:
 
-[
-X \in \mathbb{R}^{T \times d} \rightarrow y \in \mathbb{R}^{T}
-]
+**Input:** `X ∈ R^(T × d)`
+
+**Output:** `y ∈ R^T`
 
 Trong đó:
 
-* (X): chuỗi thời gian nhiều chiều gồm các biến thời tiết.
-* (d): số biến đầu vào.
-* (y): biến mục tiêu một chiều.
-* Biến mục tiêu của nhóm: **lượng mưa (`rain`)**.
-* Mục tiêu dự báo: dùng dữ liệu tại các thời điểm trước đó để dự báo lượng mưa ở thời điểm tiếp theo.
+- `X`: chuỗi thời gian nhiều chiều gồm các biến thời tiết.
+- `T`: số bước thời gian.
+- `d`: số biến đầu vào.
+- `y`: biến mục tiêu một chiều.
+- Biến mục tiêu của nhóm: lượng mưa (`rain`).
+- Mục tiêu dự báo: dùng dữ liệu tại các thời điểm trước đó để dự báo lượng mưa ở thời điểm tiếp theo.
 
 Dạng input-output trong mô hình chuỗi:
 
-[
-X_{t-L+1:t} \in \mathbb{R}^{L \times d} \rightarrow y_{t+1} \in \mathbb{R}
-]
+**Input window:** `X[t-L+1:t] ∈ R^(L × d)`
+
+**Output:** `y[t+1] ∈ R`
 
 Với bài thực nghiệm, nhóm sử dụng cửa sổ đầu vào gồm **144 bước thời gian**, tương ứng 24 giờ nếu dữ liệu có tần suất 10 phút.
 
