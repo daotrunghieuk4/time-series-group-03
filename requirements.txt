@@ -2,7 +2,14 @@ numpy
 pandas
 matplotlib
 scikit-learn
-xgboost
+scipy
 torch
-joblib
+einops
+reformer-pytorch
+sktime
+tqdm
+sympy
+patool
+PyWavelets
+xgboost
 jupyter
